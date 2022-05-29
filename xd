@@ -1,0 +1,101 @@
+-- update gui
+-- Instances:
+
+local update = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local updatelabel = Instance.new("TextLabel")
+local ani = Instance.new("TextLabel")
+local kor = Instance.new("TextLabel")
+local face = Instance.new("TextLabel")
+local hea = Instance.new("TextLabel")
+local owl = Instance.new("TextLabel")
+
+--Properties:
+
+update.Name = "update"
+update.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+update.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = update
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Frame.Position = UDim2.new(0.322652757, 0, 0.185873613, 0)
+Frame.Size = UDim2.new(0, 429, 0, 260)
+Frame.Draggable = true
+
+updatelabel.Name = "updatelabel"
+updatelabel.Parent = Frame
+updatelabel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+updatelabel.BorderColor3 = Color3.fromRGB(25, 25, 25)
+updatelabel.Size = UDim2.new(0, 429, 0, 50)
+updatelabel.Font = Enum.Font.SourceSans
+updatelabel.Text = "UPDATES"
+updatelabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+updatelabel.TextScaled = true
+updatelabel.TextSize = 14.000
+updatelabel.TextWrapped = true
+
+ani.Name = "ani"
+ani.Parent = Frame
+ani.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ani.BorderColor3 = Color3.fromRGB(25, 25, 25)
+ani.Position = UDim2.new(0, 0, 0.230769232, 0)
+ani.Size = UDim2.new(0, 214, 0, 34)
+ani.Font = Enum.Font.SourceSans
+ani.Text = "--animations lua (fe)"
+ani.TextColor3 = Color3.fromRGB(255, 255, 255)
+ani.TextSize = 30.000
+ani.TextXAlignment = Enum.TextXAlignment.Left
+ani.TextYAlignment = Enum.TextYAlignment.Top
+
+kor.Name = "kor"
+kor.Parent = Frame
+kor.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+kor.BorderColor3 = Color3.fromRGB(25, 25, 25)
+kor.Position = UDim2.new(0, 0, 0.492307723, 0)
+kor.Size = UDim2.new(0, 214, 0, 34)
+kor.Font = Enum.Font.SourceSans
+kor.Text = "--korblox (fe)"
+kor.TextColor3 = Color3.fromRGB(255, 255, 255)
+kor.TextSize = 30.000
+kor.TextXAlignment = Enum.TextXAlignment.Left
+kor.TextYAlignment = Enum.TextYAlignment.Top
+
+face.Name = "face"
+face.Parent = Frame
+face.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+face.BorderColor3 = Color3.fromRGB(25, 25, 25)
+face.Position = UDim2.new(0, 0, 0.36153847, 0)
+face.Size = UDim2.new(0, 214, 0, 34)
+face.Font = Enum.Font.SourceSans
+face.Text = "--face changer gui"
+face.TextColor3 = Color3.fromRGB(255, 255, 255)
+face.TextSize = 30.000
+face.TextXAlignment = Enum.TextXAlignment.Left
+face.TextYAlignment = Enum.TextYAlignment.Top
+
+hea.Name = "hea"
+hea.Parent = face
+hea.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+hea.BorderColor3 = Color3.fromRGB(25, 25, 25)
+hea.Position = UDim2.new(0, 0, 1.97601807, 0)
+hea.Size = UDim2.new(0, 214, 0, 34)
+hea.Font = Enum.Font.SourceSans
+hea.Text = "--headless (fe)"
+hea.TextColor3 = Color3.fromRGB(255, 255, 255)
+hea.TextSize = 30.000
+hea.TextXAlignment = Enum.TextXAlignment.Left
+hea.TextYAlignment = Enum.TextYAlignment.Top
+
+owl.Name = "owl"
+owl.Parent = face
+owl.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+owl.BorderColor3 = Color3.fromRGB(25, 25, 25)
+owl.Position = UDim2.new(0, 0, 2.97601795, 0)
+owl.Size = UDim2.new(0, 214, 0, 34)
+owl.Font = Enum.Font.SourceSans
+owl.Text = "--owl hub "
+owl.TextColor3 = Color3.fromRGB(255, 255, 255)
+owl.TextSize = 30.000
+owl.TextXAlignment = Enum.TextXAlignment.Left
+owl.TextYAlignment = Enum.TextYAlignment.Top
